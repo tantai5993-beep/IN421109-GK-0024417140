@@ -12,7 +12,10 @@
 
   <ItemGroup>
     <ProjectReference Include="..\EduHub.Application\EduHub.Application.csproj" />
+    <ProjectReference Include="..\EduHub.Domain\EduHub.Domain.csproj" />
     <ProjectReference Include="..\EduHub.Infrastructure\EduHub.Infrastructure.csproj" />
   </ItemGroup>
-
+	<ItemGroup>
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="10.0.1" />
+	</ItemGroup>
 </Project>
